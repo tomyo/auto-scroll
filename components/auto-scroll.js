@@ -25,6 +25,18 @@ customElements.define('auto-scroll', class AutoScroll extends HTMLElement {
       </button>
 
       <style>
+        :host {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          position: fixed;
+          top: 3em;
+          right: 2em;
+          gap: 0.5em;
+          width: 1.5em;
+          z-index: 2147483647;
+        }
+
         meter {
           writing-mode: tb;
           rotate: 180deg;
@@ -43,22 +55,13 @@ customElements.define('auto-scroll', class AutoScroll extends HTMLElement {
           display: none;
         }
 
-        :host {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          position: fixed;
-          top: 2em;
-          right: 2em;
-          gap: 0.5em; 
-          width: 1.5em;
-        }
-
         button {
           display: flex;
           background: none;
           border: none;
           padding: 0;
+          background-color: whitesmoke;
+          border-radius: 50%
         }
       </style>
     `
