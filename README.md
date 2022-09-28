@@ -15,4 +15,4 @@ Some chords web sites don't have this feature, so why not have it as a bookmarle
 
 * The way I wrote it seems to only work in Firefox 😅
   - [Writing mode for input elements is not working on chromium based browsers](https://bugs.chromium.org/p/chromium/issues/detail?id=681917&q=meter%20writing-mode&can=2), as I found out trying this widget there. 
-  - Gnome Web browser (only one with WebKitGTK I have) doesn't even support bookmarlets: `SyntaxError: Unexpected token '%'`
+  - Gnome Web browser (only one with WebKit I have) doesn't even support bookmarlets: `SyntaxError: Unexpected token '%'`
