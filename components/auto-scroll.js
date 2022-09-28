@@ -28,7 +28,6 @@ customElements.define('auto-scroll', class AutoScroll extends HTMLElement {
         :host {
           display: flex;
           flex-direction: column;
-          align-items: center;
           position: fixed;
           top: 3em;
           right: 2em;
@@ -38,9 +37,14 @@ customElements.define('auto-scroll', class AutoScroll extends HTMLElement {
         }
 
         meter {
+          /* writing mode not working in chromiun
+          https://bugs.chromium.org/p/chromium/issues/detail?id=681917
+
           writing-mode: tb;
           rotate: 180deg;
           height: 4em;
+          */
+          rotate: 90deg;
         }
 
         #play-stop {
