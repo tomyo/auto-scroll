@@ -1,20 +1,20 @@
 # auto-scroll
-Auto scroll widget to use as a bookmarlet 
+Auto scroll widget to use as a bookmarklet 
 
 ## Motivation
-Some chords web sites don't have this feature, so why not have it as a bookmarlet?
+Some chords web sites don't have this feature, so why not have it as a bookmarklet?
 
 ## Instructions
 * Create a new bookmark
-* Copy the content of [bookmarlet.js](https://tomyo.github.io/auto-scroll/bookmarlet.js) into the URL field of the bookmark, save it.
+* Copy the content of [bookmarklet.js](https://tomyo.github.io/auto-scroll/bookmarklet.js) into the URL field of the bookmark, save it.
 * Click on the bookmark to toggle it.
 
 
 ## Knonw Issues
 * Sites using the header `strict-origin-when-cross-origin` won't load the script.
-  - [Here's an issue with a proposal](https://github.com/tomyo/auto-scroll/issues/1) to re-write the bookmarlet in a way it doesn't load any external script.
+  - [Here's an issue with a proposal](https://github.com/tomyo/auto-scroll/issues/1) to re-write the bookmarklet in a way it doesn't load any external script.
 
-* Gnome Web browser (only one with WebKit I have) doesn't even support bookmarlets: `SyntaxError: Unexpected token '%'`
+* Gnome Web browser (only one with WebKit I have) doesn't even support bookmarklets: `SyntaxError: Unexpected token '%'`
 
 ## Bugs encountered while developing
 
